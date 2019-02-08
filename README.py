@@ -1,8 +1,10 @@
 #vow
-list=('a','e','i','o','u')
-s=input('enter letter:')
-print(s)
-if (s in list):
+x=input('enter the letter')
+print(x)
+s=('a','e','i','o','u')
+if x in s:
     print('vowel')
 else:
-    print('consonant')
+    print('consonent')
+
+
